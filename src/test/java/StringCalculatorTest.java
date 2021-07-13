@@ -1,5 +1,4 @@
 import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 /**
@@ -27,7 +26,6 @@ public class StringCalculatorTest {
         int sum = sc.add("1\n2,3");
         assertEquals(sum,6);
     }
-
 
 
 }

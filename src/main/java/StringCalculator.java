@@ -9,7 +9,8 @@ public class StringCalculator {
         int sum = 0;
         if(s.equals("")) return 0;
         else {
-            numbers = Arrays.asList(s.split("[,\\n]"));
+            numbers = Arrays.asList(s.split("[,\\n;]"));
+           // convert toInt
             return numbers.stream().mapToInt(Integer::parseInt).sum();
         }
     }
